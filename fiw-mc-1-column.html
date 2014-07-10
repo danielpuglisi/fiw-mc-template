@@ -254,8 +254,8 @@ h4{
   /*@editable*/text-align:left;
 }
 /*
-@tab Body
-@section body list
+@tab Link list
+@section List
 @tip Set the styling of a link list.
 */
 .bodyContainer .mcnTextContent .issue-link-list {
@@ -266,18 +266,18 @@ h4{
   /*@editable*/padding-left: 0;
 }
 /*
-@tab Body
-@section body list link
+@tab Link list
+@section List link
 @tip Set the styling of the link
 */
 .bodyContainer .mcnTextContent .issue-link-list a {
   /*@editable*/font-size: 18px;
-  margin-bottom: 0.5em;
+  /*@editable*/margin-bottom: 0em;
   display: inline-block;
 }
 /*
-@tab Body
-@section body list item
+@tab Link list
+@section List item
 @tip Set the styling of a list item
 */
 .bodyContainer .mcnTextContent .issue-link-list li {
@@ -286,12 +286,22 @@ h4{
   /*@editable*/list-style-type: none;
 }
 /*
-@tab Body
-@section body list item text
+@tab Link list
+@section List item text
 @tip Set the styling of a text of a list item
 */
 .bodyContainer .mcnTextContent .issue-link-list p {
   /*@editable*/font-size: 16px;
+}
+/*
+@tab Link list
+@section List item meta information
+@tip Set the styling of list item's meta information
+*/
+.bodyContainer .mcnTextContent .issue-link-list .issue-link-meta {
+  /*@editable*/font-size: 12px;
+  /*@editable*/margin-bottom: 0.25em;
+  /*@editable*/color: #BBBBBB;
 }
 /*
 @tab Body
@@ -679,117 +689,7 @@ td[class=footerContainer] td[class=mcnTextContent],td[class=footerContainer] td[
 
                                     <td mc:edit="content" valign="top" class="mcnTextContent" style="padding: 18px 18px 9px 18px;">
 
-                                      <h2 id="articles">Articles</h2>
-
-                                      <ul class="issue-link-list">
-                                        <li>
-                                          <a href="http://baymard.com/blog/line-length-readability">Readability: the Optimal Line Length</a><p>The optimal line length for a text is considered to be 50-75 characters for best readability. </p>
-
-                                          <p>What’s yours?</p>
-
-
-                                        </li>
-                                        <li>
-                                          <a href="http://frontendbabel.info/articles/webpage-rendering-101/">What Every Frontend Developer Should Know About Webpage Rendering</a><p>This article covers how browsers render and optimize websites.</p>
-
-
-                                        </li>
-                                        <li>
-                                          <a href="http://sixrevisions.com/css/responsive-background-image/">Responsive Full Background Image Using CSS</a><p>A simple CSS technique for making a background image fully stretch out to cover the entire browser viewport.</p>
-
-
-                                        </li>
-                                        <li>
-                                          <a href="http://css-tricks.com/time-element/">The `time` Element</a><p>The <code><time></code> element in HTML represents a machine-readable date, time, or duration. It can be useful for creating event scheduling, archiving, and other time-based functions. </p>
-
-
-                                          </li>
-                                          <li>
-                                            <a href="http://www.webdesignerdepot.com/2014/07/15-css-blend-modes-that-will-supercharge-your-images/">15 CSS blend modes that will supercharge your images</a>
-                                          </li>
-                                          <li>
-                                            <a href="http://daneden.me/2014/06/28/design-elitism/">Design Elitism</a>
-                                          </li>
-                                        </ul>
-
-                                        <h2 id="libraries">Libraries</h2>
-
-                                        <ul class="issue-link-list">
-                                          <li>
-                                            <a href="https://github.com/viljamis/Molten-Leading">Molten-Leading</a><p>Automatically adjust line-height based on element width for optimal readability.</p>
-
-
-                                          </li>
-                                          <li>
-                                            <a href="http://alvarotrigo.com/fullPage/">fullPage.js</a><p>Create fullscreen pages fast and simple.</p>
-
-
-                                          </li>
-                                          <li>
-                                            <a href="http://mistic100.github.io/jquery-highlighttextarea/">jQuery highlightTextarea</a><p>Highlight a set of words or a specific range (also supports regex) within <code><textarea></code> or <code><input></code> tags.</p>
-
-
-                                            </li>
-                                            <li>
-                                              <a href="https://github.com/TeehanLax/Hyperlapse.js">Hyperlapse.js</a><p>Create <a href="https://vimeo.com/63653873">hyperlapse videos</a> with Google Street View and Javascript. </p>
-
-
-                                            </li>
-                                            <li>
-                                              <a href="http://facultycreative.com/racist-uncle/">Racist Uncle</a><p>A webfont for your redneck clients.</p>
-
-
-                                            </li>
-                                          </ul>
-
-                                          <h2 id="tools">Tools</h2>
-
-                                          <ul class="issue-link-list">
-                                            <li>
-                                              <a href="http://cssshrink.com/">CSS Shrink</a><p>A CSS minifier.</p>
-
-
-                                            </li>
-                                            <li>
-                                              <a href="http://yellquietly.com/bass-shapes/">Bass Shapes</a><p>Bass Shapes is a stand-alone computer application that is visually stimulated by audio input.</p>
-
-
-                                            </li>
-                                            <li>
-                                              <a href="https://calendar.sunrise.am/">Sunrise Calendar</a>
-                                            </li>
-                                          </ul>
-
-                                          <h2 id="inspirations-and-useful-stuff">Inspirations and Useful Stuff</h2>
-
-                                          <ul class="issue-link-list">
-                                            <li>
-                                              <a href="http://www.belvederevodka.com">Belvedere Vodka</a><p>Site design #1</p>
-
-
-                                            </li>
-                                            <li>
-                                              <a href="http://www.corum.ch/">CORUM </a><p>Site design #2</p>
-
-
-                                            </li>
-                                            <li>
-                                              <a href="http://whiteboard.co/">Whiteboard</a><p>Site design #3</p>
-
-
-                                            </li>
-                                            <li>
-                                              <a href="http://toolbox.haptime.in/">The Awesome Free Toolbox</a><p>A toolbox of free stuff for making websites.</p>
-
-
-                                            </li>
-                                            <li>
-                                              <a href="http://www.craftedbylove.com/#/">Crafted by Love</a><p>A gallery showcasing beautiful web design.</p>
-
-
-                                            </li>
-                                          </ul>
-
+                                      <p>Put in your content here...</p>
 
                                         </td>
                                       </tr>
